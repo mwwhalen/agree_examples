@@ -174,8 +174,6 @@ system Display_Control
 		guarantee "While the microwave is in cooking mode, seconds_to_cook shall decrease" : 
 			true;
 				    
-		guarantee "when the keypad is initially enabled, if no digits are pressed, the value shall be zero" :
-			true;
 		
 	**};	
 end Display_Control ; 
